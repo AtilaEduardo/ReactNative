@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
 
     button: {
         height: 30,
-        width: 65,
+        width: 70,
         margin: 15,
         left: 50,
         padding: 5,
@@ -21,8 +21,8 @@ const styles = StyleSheet.create({
       },
 
       centerLabel: {
-        width: 1250,
-        height: 175,
+        width: 1900,
+        height: 400,
         top: 35,
         justifyContent: 'center',
         alignItems: 'center'
