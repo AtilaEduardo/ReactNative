@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   },
 
   buttonFecharModal: {
-    margin: 40,
+    margin: 30,
     width: 100,
     height: 30,
     right: 30,
@@ -31,9 +31,9 @@ const styles = StyleSheet.create({
   },
 
   centerModal: {
-    width: 500,
-    top: 200,
-    left: 665,
+    width: 400,
+    top: 50,
+    left: 990,
     height: 100,
     justifyContent: 'center',
     alignItems: 'center'
