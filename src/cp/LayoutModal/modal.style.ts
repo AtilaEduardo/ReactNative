@@ -2,28 +2,30 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   box: {
-    margin: 2,
-    height: 40,
-    padding: 10,
-    borderRadius: 5,
-    borderWidth: 1,
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 22,
   },
 
   buttonAbrirModal: {
-    margin: 20,
-    height: 30,
-    padding: 5,
-    borderRadius: 5,
-    borderWidth: 1,
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 22,
+    marginBottom: 15,
   },
 
   buttonFecharModal: {
-    margin: 30,
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 15,
     width: 100,
-    height: 30,
     right: 30,
     borderRadius: 5,
     borderWidth: 1,
+    marginTop: 22,
   },
 
   fixedButton: {
@@ -33,10 +35,10 @@ const styles = StyleSheet.create({
   centerModal: {
     width: 400,
     top: 50,
-    left: 990,
+    left: 670,
     height: 100,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
  }
 });
 
